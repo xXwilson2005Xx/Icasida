@@ -35,7 +35,6 @@ ul{
 .footer{
   background-color: #ffffff;
     padding: 70px 0;
-    position: absolute;
     bottom: 0;
     width: 100%;
 }
@@ -122,6 +121,8 @@ ul{
     padding: 20px;
     background-color: #ffffff;
     color: #000000;
+    box-shadow: 0 0 10px 0 #ff00006a;
+    position: fixed;
   }
   
   .nav-links a {
@@ -192,5 +193,26 @@ input[type=checkbox]:checked ~ .menu {
 
 .img-container{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: fit-content;
+  padding-top: 50px;
+}
+
+.mat{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  box-shadow: 0 0 10px 0 #0000006a;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  background-color:#ffffff
+}
+
+.mat p {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  padding: 2%;
   
 }
