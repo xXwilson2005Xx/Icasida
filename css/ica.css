@@ -196,7 +196,7 @@ input[type=checkbox]:checked ~ .menu {
   flex-wrap: wrap;
   justify-content: space-evenly;
   height: fit-content;
-  padding-top: 50px;
+  padding-top: 60px;
 }
 
 .mat{
@@ -215,4 +215,20 @@ input[type=checkbox]:checked ~ .menu {
   width: 300px;
   padding: 2%;
   
+}
+
+.mat button{
+  display: flex;
+  justify-content: space-evenly;
+  color: aliceblue;
+  width: 25%;
+  background-color: #ff0000;
+  border-radius: 5px;
+  border-color: #24262b;
+}
+
+.mat button:hover{
+  color: aliceblue;
+  transition: 0.4s;
+  background-color: #ff0000a9;
 }
