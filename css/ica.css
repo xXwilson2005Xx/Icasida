@@ -171,6 +171,7 @@ input[type=checkbox] {
   left: 0;
   text-align: center;
   padding: 16px 0;
+  box-shadow: 0 10px 10px 0 #ff00006a;
   }
   
   .menu li:hover {
