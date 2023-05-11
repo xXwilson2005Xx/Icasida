@@ -123,6 +123,7 @@ ul{
     color: #000000;
     box-shadow: 0 0 10px 0 #ff00006a;
     position: fixed;
+    border-radius: 5px;
   }
   
   .nav-links a {
