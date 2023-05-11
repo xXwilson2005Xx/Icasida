@@ -208,7 +208,8 @@ input[type=checkbox]:checked ~ .menu {
   box-shadow: 0 0 10px 0 #0000006a;
   margin-top: 2%;
   margin-bottom: 1%;
-  background-color:#ffffff
+  background-color:#ffffff;
+  border-radius: 10px;
 }
 
 .mat p {
@@ -233,4 +234,8 @@ input[type=checkbox]:checked ~ .menu {
   color: aliceblue;
   transition: 0.4s;
   background-color: #ff0000a9;
+}
+
+img{
+  border-radius: 10px;
 }
