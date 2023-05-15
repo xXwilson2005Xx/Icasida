@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ICA</title>
     <link rel="stylesheet" href="css/ica.css">
-    <link rel="stylesheet" href="css/signup.css">
     <script src="js/ica.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Icasida/css/kontakt.css">
 </head>
 
 <body>
@@ -32,58 +32,21 @@
       </nav>
 
 
-        <main>
-          <form onsubmit="validate(event)">
-            <h2>Regestrering</h2>
-            <div>
-              <h4><label for="userId">Förnamn</label><br></h4>
-              <input type="text" class="input" name="userId" id="userId"><br>
-              <span id="userIdErr"></span>
-            </div>
-            <div>
-              <h4><label for="name">Efternamn</label><br></h4>
-              <input type="text" class="input" name="name" id="name"><br>
-              <span id="nameErr"></span>
-            </div>
-            <div>
-              <h4><label for="password">Lösenord</label><br></h4>
-              <input type="password" class="input" name="password" id="password"><br>
-              <span id="passwordErr"></span>
-            </div>
-            
-            <div>
-              <h4><label for="country">Land</label><br></h4>
-              <select name="country" id="country">
-                <option value="null" selected disabled hidden>Välj ett land</option>
-                <option value="sverige">Sverige</option>
-                <option value="norge">Norge</option>
-                <option value="estland">Estland</option>
-                <option value="lettland">Lettland</option>
-                <option value="litauen">Litauen</option>
-              </select><br>
-              <span id="countryErr"></span>
-            </div>
-            <div>
-              <h4><label for="zip">Postnummer</label><br></h4>
-              <input type="number" class="input" name="zip" id="zip"><br>
-              <span id="zipErr"></span>
-            </div>
-            <div>
-              <h4><label for="email">E-mail</label><br></h4>
-              <input type="email" class="input" name="email" id="email"><br>
-              <span id="emailErr"></span>
-            </div>
-            <input type="submit" class="input">
-            <input type="reset" class="input">
-          </form>
-          <div id="popup" style="display: none;">
-            <div id="data">
-              <span class="close">&times;</span><br>
-              <p></p>
-            </div>
-          </div>
-          <script src="script.js"></script>
-        </main>
+      <main>
+        <div class="log-in-form">
+            <form action="">
+                <br>
+                <label for="">Kontakta Oss</label><br><br>
+                <label for="Email adress">Email adress:</label><br>
+                <input type="email" placeholder="Email adress" required><br>
+                <label for="Message">Text:</label><br>
+                <input type="text" placeholder="Text" required><br>
+                <br><br>
+                <input type="submit" value="Skicka in" required>
+               </form>
+        </div>
+      </main>
+
 
 
       <footer class="footer">
@@ -102,7 +65,8 @@
               <ul>
                 <li><a href="#">Reklamera</a></li>
                 <li><a href="#">Återkallelser</a></li>
-                <li><a href="/Icasida/Kontakt.html">Kontakta oss</a></li></ul>
+                <li><a href="/Icasida/Kontakt.html">Kontakta oss</a></li>
+              </ul>
           </div>
           <div class="footer-col">
             <h4>Hållbarhet</h4>

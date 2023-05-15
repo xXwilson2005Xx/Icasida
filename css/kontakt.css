@@ -1,0 +1,19 @@
+.log-in-form{
+    background-color: rgb(88, 85, 85);
+    width: 60%; 
+    height: 50vh;
+    margin-left: 20%;
+    position: relative;
+    text-align: center;
+    color: rgb(32, 209, 218);
+    margin-top: 5%;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: black;
+}
+label {
+    font-size: 2rem;
+}
+input {
+    font-size: 2rem;
+}
