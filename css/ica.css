@@ -10,7 +10,10 @@
   }
   }
 
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 body{
   line-height: 1.5;
   font-family: 'Poppins', sans-serif;
@@ -116,9 +119,8 @@ ul{
 
 .navbar {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
     background-color: #ffffff;
     color: #000000;
     box-shadow: 0 0 10px 0 #ff00006a;
@@ -131,13 +133,17 @@ ul{
   }
   
   .logo {
-    font-size: 32px;
+    font-size: 30px;
     color: #ff0000;
   }
-  
+
+  h2{
+    font-size: 25px;
+  }
+
   .menu {
     display: flex;
-    gap: 1em;
+    gap: 2em;
     font-size: 18px;
   }
   
@@ -154,20 +160,21 @@ ul{
 
 input[type=checkbox] {
   display: none;
-  } 
+} 
   
 
-  .hamburger {
+.hamburger {
   display: none;
   font-size: 24px;
   user-select: none;
-  }
+}
   
-  @media (max-width: 768px) {
+
+@media (max-width: 768px) {
   .menu {
   display:none;
   position: absolute;
-  background-color:#ffffff;
+  background-color:#ffffffb3;
   right: 0;
   left: 0;
   text-align: center;

@@ -13,19 +13,21 @@
 </head>
 
 <body>
+
   <div id="page">
+
     <div id="wrap">
 
       <nav>
         <nav class="navbar">
-          <div class="logo">ICA</div>
+          <div class="logo"><h1>ICA</h1></div>
             <ul class="nav-links">
               <input type="checkbox" id="checkbox_toggle" />
               <label for="checkbox_toggle" class="hamburger">&#9776;</label>
               <div class="menu">
-                <li><a href="ica.html">Butik</a></li>
-                <li><a href="recept.html">Recept</a></li>
-                <li><a href="profil.html">Profil</a></li>
+                <li><a href="ica.html"><h2>Butik</h2></a></li>
+                <li><a href="recept.html"><h2>Recept</h2></a></li>
+                <li><a href="profil.html"><h2>Profil</h2></a></li>
               </div>
             </ul>
         </nav>
@@ -34,7 +36,7 @@
 
         <main>
           <form onsubmit="validate(event)">
-            <h2>Regestrering</h2>
+            <h2 id="reg">Regestrering</h2>
             <div>
               <h4><label for="userId">Förnamn</label><br></h4>
               <input type="text" class="input" name="userId" id="userId"><br>
@@ -51,6 +53,8 @@
               <span id="passwordErr"></span>
             </div>
             
+
+
             <div>
               <h4><label for="country">Land</label><br></h4>
               <select name="country" id="country">
@@ -63,19 +67,25 @@
               </select><br>
               <span id="countryErr"></span>
             </div>
+
+
+
             <div>
               <h4><label for="zip">Postnummer</label><br></h4>
               <input type="number" class="input" name="zip" id="zip"><br>
               <span id="zipErr"></span>
             </div>
+
             <div>
               <h4><label for="email">E-mail</label><br></h4>
               <input type="email" class="input" name="email" id="email"><br>
               <span id="emailErr"></span>
             </div>
+
             <input type="submit" class="input">
             <input type="reset" class="input">
           </form>
+
           <div id="popup" style="display: none;">
             <div id="data">
               <span class="close">&times;</span><br>
@@ -102,7 +112,7 @@
               <ul>
                 <li><a href="#">Reklamera</a></li>
                 <li><a href="#">Återkallelser</a></li>
-                <li><a href="/Icasida/Kontakt.html">Kontakta oss</a></li></ul>
+                <li><a href="Kontakt.html">Kontakta oss</a></li></ul>
           </div>
           <div class="footer-col">
             <h4>Hållbarhet</h4>

@@ -28,7 +28,7 @@
     border-radius: 20px;
     background: var(--bg-form);
   }
-  h2{
+  #reg{
     margin-bottom: 1.5rem;
     font-size: 28px;
     text-align: center;
