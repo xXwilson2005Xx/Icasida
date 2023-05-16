@@ -1,3 +1,4 @@
+/* Återställ standardmarginaler och padding för alla element */
 * {
   margin: 0;
   padding: 0;
@@ -48,9 +49,15 @@ h4 {
   font-size: 18px;
   border: 3px solid var(--secondary-color);
 }
+
+/* Stilmallar för input-fältet när det är i fokus */
+
 .input:focus {
   outline: none;
 }
+
+/* Stilmallar för de två sista input-fälten */
+
 .input:nth-last-child(-n + 2) {
   margin-bottom: 0.5rem;
   width: 100%;
@@ -82,6 +89,9 @@ select:focus {
   justify-content: center;
   align-items: center;
 }
+
+/* Stilmallar för data-elementet inom popup */
+
 #data {
   padding: 2rem;
   width: 40vw;
@@ -95,6 +105,8 @@ select:focus {
   cursor: pointer;
   font-size: 30px;
 }
+
+/* Skjusterar inehållet när skärmen blir mindre  */
 
 @media (max-width: 768px) {
   form {

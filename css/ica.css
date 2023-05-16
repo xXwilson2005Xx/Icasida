@@ -10,6 +10,10 @@
   }
 }
 
+/*Denna del av koden tillämpar en mediaförfrågan (media query) som aktiveras när skärmstorleken är högst 767px. 
+För alla element med klassen .footer-col, kommer bredden att vara 50% och det kommer att finnas ett mellanrum nedanför på 30px.
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 body {
@@ -22,6 +26,9 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+/*Här nollställs alla marginaler, padding och box-sizing för alla element i dokumentet.*/
+
 .footer-container {
   max-width: 1170px;
   margin: auto;
@@ -33,6 +40,9 @@ body {
 ul {
   list-style: none;
 }
+
+/*Alla ul-element får en stil med inga punkter i listan.*/
+
 .footer {
   background-color: #ffffff;
   padding: 70px 0;
@@ -84,6 +94,12 @@ ul {
   color: #000000;
   padding-left: 8px;
 }
+
+/*.footer-col ul li a bestämmer stilmallen för ankarelementen (länkar) som är barn till li inuti .footer-col. 
+De har en fontstorlek på 16px, textomvandling till versaler, svart färg (#000000), ingen textdekoration, en fetstil (font-weight 300), 
+blockvisning, och en övergångseffekt för alla egenskaper med en varaktighet på 0.3 sekunder. 
+.footer-col ul li a:hover ändrar textfärgen till svart och ger en vänsterpadding på 8px när muspekaren sveps över länkarna.*/
+
 .footer-col .social-links a {
   display: inline-block;
   height: 40px;
@@ -159,6 +175,11 @@ h2 {
 input[type="checkbox"] {
   display: none;
 }
+
+/*input[type="checkbox"] döljer kryssrutan på sidan. 
+.hamburger döljer elementet som använder hamburgerikonen för mobilnavigering och har en, 
+fontstorlek på 24px. user-select: none; förhindrar användaren från att markera texten med musen.
+*/
 
 .hamburger {
   display: none;
