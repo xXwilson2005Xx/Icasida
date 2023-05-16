@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ICA</title>
     <link rel="stylesheet" href="css/ica.css" />
-    <link rel="stylesheet" href="css/signup.css" />
+    <link rel="stylesheet" href="css/table.css" />
     <script src="js/ica.js"></script>
     <link
       rel="stylesheet"
@@ -43,73 +43,44 @@
           </nav>
         </nav>
 
-        <main>
-          <form onsubmit="validate(event)">
-            <h2 id="reg">Regestrering</h2>
-            <div>
-              <h4><label for="userId">Förnamn</label><br /></h4>
-              <input
-                type="text"
-                class="input"
-                name="userId"
-                id="userId"
-              /><br />
-              <span id="userIdErr"></span>
-            </div>
-            <div>
-              <h4><label for="name">Efternamn</label><br /></h4>
-              <input type="text" class="input" name="name" id="name" /><br />
-              <span id="nameErr"></span>
-            </div>
-            <div>
-              <h4><label for="password">Lösenord</label><br /></h4>
-              <input
-                type="password"
-                class="input"
-                name="password"
-                id="password"
-              /><br />
-              <span id="passwordErr"></span>
-            </div>
-
-            <div>
-              <h4><label for="country">Land</label><br /></h4>
-              <select name="country" id="country">
-                <option value="null" selected disabled hidden>
-                  Välj ett land
-                </option>
-                <option value="sverige">Sverige</option>
-                <option value="norge">Norge</option>
-                <option value="estland">Estland</option>
-                <option value="lettland">Lettland</option>
-                <option value="litauen">Litauen</option></select
-              ><br />
-              <span id="countryErr"></span>
-            </div>
-
-            <div>
-              <h4><label for="zip">Postnummer</label><br /></h4>
-              <input type="number" class="input" name="zip" id="zip" /><br />
-              <span id="zipErr"></span>
-            </div>
-
-            <div>
-              <h4><label for="email">E-mail</label><br /></h4>
-              <input type="email" class="input" name="email" id="email" /><br />
-              <span id="emailErr"></span>
-            </div>
-
-            <input type="submit" class="input" />
-            <input type="reset" class="input" />
-          </form>
-
-          <div id="popup" style="display: none">
-            <div id="data">
-              <span class="close">&times;</span><br />
-              <p></p>
-            </div>
-          </div>
-          <script src="script.js"></script>
+        <main class="content">
+          <table>
+            <thead>
+              <tr>
+                <th>Head</th>
+                <th>Head</th>
+                <th>Head</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Word</td>
+                <td>Word</td>
+                <td>Word</td>
+              </tr>
+              <tr>
+                <td>Word</td>
+                <td>Word</td>
+                <td>Word</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>Word</td>
+                <td>Word</td>
+                <td>Word</td>
+              </tr>
+            </tfoot>
+          </table>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2044.065702312027!2d18.154901376951308!3d59.18147917454306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f7c7bf947780b%3A0xfef3021187af37ce!2sMaxi%20ICA%20Stormarknad%20Haninge!5e0!3m2!1ssv!2sse!4v1684233185825!5m2!1ssv!2sse"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </main>
 
         <footer class="footer">
